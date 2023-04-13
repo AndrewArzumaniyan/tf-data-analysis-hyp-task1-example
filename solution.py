@@ -18,4 +18,4 @@ def solution(x_success: int,
     
     Ucr = norm.ppf(1/2 - alpha
     
-    return U < Ucr
+    return U >= Ucr
