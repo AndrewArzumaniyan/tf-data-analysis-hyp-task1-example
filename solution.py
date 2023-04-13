@@ -16,6 +16,6 @@ def solution(x_success: int,
     
     U = ((w - p0) * y_cnt**0.5) / denom
     
-    Ucr = norm.ppf(1/2 - alpha
+    Ucr = norm.ppf(1/2 - alpha)
     
     return U >= Ucr
